@@ -109,6 +109,9 @@ a:hover {
 .pt-5{
 	padding-top: 5px;
 }
+.common_padding{
+	padding:100px 0px;
+}
 /* Preloader */
 /* Preloader */
 
@@ -276,6 +279,7 @@ a.border-btn:hover i.fa {
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+  letter-spacing: 3px;
 }
 
 .section-title h5 {
@@ -288,6 +292,7 @@ a.border-btn:hover i.fa {
   text-transform: uppercase;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
 }
 .section-title p {
 	font-weight: 300;
@@ -414,8 +419,7 @@ a.envelope::after {
 	transform:scale(1.5);
 }
 .navbar {
-    padding-right: 0;
-    padding-left: 0px;
+    padding: 0px;
 }
 .header.sticky {
 	background-color: #fff;
@@ -429,6 +433,16 @@ a.envelope::after {
 }
 #navbarNav ul li:last-child a {
 	padding-right: 0;
+}
+a.navbar-brand img{
+}
+.logo {
+	padding:0px 0px;
+}
+.logo a img {
+	width: 150px;
+	height: 55px;
+	/* max-width: 130px; */
 }
 .mainmenu ul li.current a, .mainmenu ul li a:hover {
 	color:  #df2424;
@@ -759,11 +773,7 @@ a.navbar-brand a span{
   font-family: 'Montserrat',sansserif;
   font-weight: 400;
 }
-/*mission start*/
-/* .mission-area {
-	padding-top: 30px;
-	background-color: #000;
-} */
+/* MISSION AND VISION AREA */
 .mission-area {
 	position: relative;
 	z-index: 2;
@@ -798,173 +808,102 @@ a.navbar-brand a span{
 }
 @media screen and (max-width: 700px){
 	.mission-and-vision p{
-	font-size: 1.25rem;
+	font-size: 1.3rem;
 	letter-spacing: 2px;
 	margin-top: 20px;
 }
 }
-/* TEAM START */
-.team-area {
-	padding-top: 30px;
-	background-color: #000;
-}
-.single-team {
-	margin-bottom: 30px;
-	transition:.8s;
-}
-.single-team p{
-	text-transform:lowercase;
-	text-align: center;
-}
-.single-team img {
-	width: 100%;
-	height: 80vh;
-}
-.single-team h3 {
-	color: #333;
-	margin: 10px 0 10px 0;
-	font-size: 16px;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-}
-.single-team p {
-	font-size: 14px;
-	color: #6a6a6a;
-	text-transform: uppercase;
-}
-.team-member-img::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  opacity: .8;
-  visibility:hidden;
-  transform:scale(0);
-  transition:.8s;
-  border-radius: 50%;
-}
-.team-member-img img {
-  width: 100%;
-  height: 250px;
-  border-radius: 50%;
-}
-.team-member-img {
-	z-index: 99;
-	float: left;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    margin-right: 30px;
-	margin-bottom: 20px;
-}
-.team-member {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.inner-team-member ul {
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  width:100%;
-}
-.inner-team-member ul li {
-  display: inline-block;
-  margin-right: 2px;
-}
-.inner-team-member ul li a i {
-  font-size: 18px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: 1px solid #ffffff;
-  text-align: center;
-  line-height: 38px; 
-  color: #ffffff;
-  transform:scale(0);
-  transition:.5s;
-}
 
-.single-team:hover .team-member-img::before {
-	visibility:visible;
-	transform:scale(1);
-	transition:.8s;
-}
-.single-team:hover .inner-team-member ul li a i{
-	visibility:visible;
-	transform:scale(1);
-	transition:.5s;
-}
-/* TEAM END */
-/* reviews area start  */
-
-.reviews-slider {
-  margin-top: 60px;
-}
-.reviews-img {
-	height: 125px;
-	width: 125px;
-	display: block;
-	margin: 0 auto;
-}
-.reviews-img img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-}
-.reviews-text {
-	text-align: center;
-	color: #000;
-}
-.reviews-text p {
-	font-size: 15px;
-	font-weight: 600;
-	font-style: italic;
-	color: #6a6a6a;
-	text-align: center;
-	line-height: 27px;
-	margin: 25px 0 40px 0;
-	position:relative;
-}
-.reviews-text p::before {
-	position: absolute;
-	content: '\f10d';
-	font-family: FontAwesome;
-	left: 180px;
-	font-size: 16px;
-}
-.reviews-text h3 {
-	margin-bottom: 12px;
-}
-.reviews-text h4 {
-	font-weight: 300;
-}
-.reviews-slider .owl-nav div {
-	top: 14%;
-	position: absolute;
-	font-size: 25px;
-	font-weight: 100;
-	left: 445px;
-	color: #999;
-}
-.reviews-slider .owl-nav .owl-next {
-	right: 445px;
-	left: auto;
-} 
-/* CUSTOMER REVIEWS END */
 /* TESTIMONIAL SECTION START  */
 
+#team {
+  padding: 60px 0;
+}
+
+#team .section-header {
+  margin-bottom: 40px;
+}
+
+#team .our-team-item .our-team-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  float: left;
+}
+
+#team .our-team-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+#team .our-team-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+#team .our-team-item p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+}
+#team .owl-nav,
+#team .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#team .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#team .owl-dot.active {
+  background-color: #df2424;
+}
+#team .events{
+	text-align:center;
+}
+#team .single-add-event h5::before {
+   top: -22px;
+    left: 447px;
+}
+/* TEAM SECTION END */
+
+/* CLIENT REVIEWS page OR TESTIMONIAL AREA START */
+#testimonials {
+	background-image: url("../img/reviews.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: -1;
+	color: #fff;
+	margin:100px 0 100px 0;
+}
+
+#testimonials:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #333;
+	z-index: -1;
+	opacity: .97;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
 #testimonials {
   padding: 60px 0;
+  background-color: #000;
 }
 
 #testimonials .section-header {
@@ -982,7 +921,7 @@ a.navbar-brand a span{
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #fff;
   margin-left: 140px;
 }
 
@@ -996,6 +935,8 @@ a.navbar-brand a span{
 #testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 0 15px 140px;
+  color: #ffd;
+  font-size: 14px;
 }
 #testimonials .owl-nav,
 #testimonials .owl-dots {
@@ -1017,12 +958,75 @@ a.navbar-brand a span{
 }
 #testimonials .events{
 	text-align:center;
+	
 }
 #testimonials .single-add-event h5::before {
    top: -22px;
     left: 447px;
 }
-/* TESTIMONIALS SECTION END */
+/* CONTACT AREA */
+.contact-area {
+	position: relative;
+	z-index: 2;
+	height: 50vh; 
+	width:100%;
+	background-image: url(../img/contact.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	 background-attachment: fixed; 
+	 padding: 60px 0 0 0;
+	margin: 20px 40px 20px 0;
+	color: #fff; 
+	/* background-color: #fff; */
+}
+ .contact-area::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 50vh;
+  z-index: -1;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+} 
+.contact p{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+@media screen and (max-width: 700px){
+	.contact p{
+	font-size: 1.05rem;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.contact-social a {
+  margin: 7px; 
+}
+.contact-social img {
+	width: 25px;
+	margin-bottom: 30px;
+	transition: 0.5s;
+}
+}
+.contact-social a {
+ margin: 10px;
+}
+.contact-social img {
+	width: 30px;
+	margin-bottom: 30px;
+	transition: 0.5s;
+}
+.contact-social a img:hover{
+	transform:scale(1.5);
+}
 /* FOOTER AREA START */
 .footer-area{
 	background-color: #333;
