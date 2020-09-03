@@ -86,6 +86,9 @@ a:hover {
 .pb-50 {
 	padding-bottom: 50px;
 }
+.pb-30 {
+	padding-bottom: 30px;
+}
 .pl-50 {
 	padding-left: 50px;
 }
@@ -639,16 +642,45 @@ button.btn.btn-primary.my-header-btn2:hover {
 /* SLIDER AREA END */
 /* ABOUT AREA START */
 .about-text {
-	padding: 10px 0;
+	/* padding: 10px 0; */
 }
-.about-text p {
+.about-text p{
+	/* padding-bottom: 10px; */
+	text-align: left;
+}
+.story-text p{
 	/* padding-bottom: 10px; */
 	text-align: justify;
 }
+.about-text p span{
+	font-weight: 500;
+}
+.story-text p span{
+	font-weight: 600;
+}
 .about-text h4 {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	text-align: justify;
 	font-size: 16px;
+}
+.about-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+.about-text ul li {
+	padding: 5px 20px;
+	position: relative;
+	color: #000;
+	font-size: 0.90rem;
+	/* text-align: center; */
+}
+.about-text ul li::before {
+	content: "\f061";
+	position: absolute;
+	top: 9px;
+	left: 0;
+	font-family: 'FontAwesome';
+	color: #df2424;
 }
 @media screen and (max-width: 700px){
 	.about-text h4 {
@@ -773,17 +805,19 @@ button.btn.btn-primary.my-header-btn2:hover {
   box-shadow: 1px 1px 19px #ccc;
 }
 .single-service img {
-  width: 35px;
-  height: 35px;
-  margin: 20px 0;
+  width: 50px;
+  height: 50px;
+  margin: 15px 0;
 }
 .single-service h2 {
-  font-size: 26px;
-  padding: 20px 0;
-  color: #df2424;
+	font-size: 20px;
+	padding: 10px 0;
+	color: #df2424;
+	text-transform: capitalize;
+	font-weight: 600;
 }
 .single-service p {
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
   font-family: 'Montserrat',sansserif;
   font-weight: 400;
@@ -864,7 +898,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 @media screen and (max-width: 700px){
 	.owl-carousel .owl-item img {
 	transform-style: preserve-3d;
-	margin: 0px 20px;
+	margin: 0px 55px;
 }
 }
  #team .events{
@@ -944,7 +978,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	position: relative;
 	margin: 20px 0px;
 	box-shadow: 2px 2px 4px 3px #fff;
-	 transition: 0.5s;
+	 transition: 0.85s;
 }
 .single-testimonial:hover {
   box-shadow: 1px 1px 19px #df2426;
@@ -992,6 +1026,41 @@ button.btn.btn-primary.my-header-btn2:hover {
 	margin: 50px 0px;
 }
 }
+/* FAQ PAGE AREA START */
+.card-header, .card-link,.card-link:hover{
+	background-color:#df2426;
+	text-align:left;
+	color:#fff;
+	font-weight: 600;
+}
+.card-body{
+	padding:10px 10px;
+}
+.card{
+	/* width:500px; */
+}
+.card-body p{
+	font-weight: 400;
+	color: #000;
+}
+.card-link p{position:absolute;top:5px;right:20px;font-size:20px;color:white;
+-webkit-animation: minus 0.5s;}
+
+@keyframes minus {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+.my-accordion{
+	margin:100px 0 100px 0;
+}
+/* faq area end*/
+
 /* CONTACT AREA */
 .contact-area {
 	position: relative;
