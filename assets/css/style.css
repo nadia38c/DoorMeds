@@ -1168,6 +1168,9 @@ button.btn.btn-primary.my-header-btn2:hover {
 .footer-text p {
 	text-align: right;
 	margin-top: 0px;
-	font-size: 8px;
+	font-size: 10px;
+}
+.footer-text p span {
+	color: #df2426;
 }
 /* FOOTER AREA END */
