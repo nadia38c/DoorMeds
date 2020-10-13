@@ -125,7 +125,7 @@ a:hover {
 .common_padding{
 	padding:100px 0px;
 }
-/* Preloader */
+
 /* Preloader */
 
 .flex-center {
@@ -155,8 +155,8 @@ a:hover {
 	margin: 0 10px 0 10px;
 	background: #d35400;
 	border-radius:50%;
-	-webkit-animation: dot-dot-dot 0.2s linear infinite;
-	animation: dot-dot-dot 0.2s linear infinite;
+	-webkit-animation: dot-dot-dot 1.4s linear infinite;
+	animation: dot-dot-dot 1.4s linear infinite;
 }
 .dots .dot:nth-child(2) {
 	-webkit-animation-delay: .2s;
@@ -202,7 +202,6 @@ a:hover {
 		transform: translateY(-25px);
 	}
 }
-/*Preloader */
 #scrollUp {
 	bottom: 10px;
 	color: #fff;
@@ -216,6 +215,7 @@ a:hover {
 	line-height: 40px;
 	border-radius: 50%;
 }
+/*Preloader End*/
 #popUpMain{
 	position: fixed;
 	width: 100%;
@@ -1051,7 +1051,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	background-color: #209DF0;
 }
 .single-testimonial i.fas {
-	margin: 20px 0px;
+	margin: 30px 0px;
 	color: #df2424;
 	font-size: 30px;
 }
