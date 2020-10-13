@@ -296,7 +296,7 @@ a.border-btn {
 	letter-spacing: 1px;
 	position: relative;
 	margin-top: 20px;
-	box-shadow: 3px 2px 4px 3px #df2426;
+	box-shadow: 3px 2px 4px 3px #df2424;
 }
 a.box-btn i.fa {
 	position: absolute;
@@ -453,7 +453,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	color: #635CDB;
 }
 .header.header-fixed.sticky li.current a {
-	color: #df2426 !important;
+	color: #df2424 !important;
 }
 .navbar {
 	padding: 0px 0px;
@@ -488,7 +488,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	width: 150px;
 }
 .navbar-brand span{
-	color: #df2426;
+	color: #df2424;
 }
 .navbar-brand {
 	font-weight: 600;
@@ -515,7 +515,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	}
 }
 .mainmenu ul li.current a, .mainmenu ul li a:hover {
-	color: #df2426;
+	color: #df2424;
 }
 .header.header-fixed.sticky a {
 	color: #333 !important;
@@ -690,7 +690,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	font-weight: 600;
 }
 .story-text p span span, .about-text p span span, .section-title p span span{
-	color: #df2426;
+	color: #df2424;
 }
 .about-text h4 {
 	padding-bottom: 10px;
@@ -942,7 +942,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	text-transform: capitalize;
 	font-weight: 600;
 	font-size: 25px;
-	color: #df2426;
+	color: #df2424;
 	text-align: center;
 	margin: 20px 0 0 20px;
 	letter-spacing: 1px;
@@ -1015,7 +1015,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	 transition: 0.85s;
 }
 .single-testimonial:hover {
-  box-shadow: 1px 1px 19px #df2426;
+  box-shadow: 1px 1px 19px #df2424;
 }
 .testi-img img {
 	position: relative;
@@ -1037,7 +1037,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 	text-transform: capitalize;
 	font-weight: 600;
 	font-size: 20px;
-	color: #df2426;
+	color: #df2424;
 }
 
 .single-testimonial h4 span {
@@ -1062,7 +1062,7 @@ button.btn.btn-primary.my-header-btn2:hover {
 }
 /* FAQ PAGE AREA START */
 .card-header, .card-link,.card-link:hover{
-	background-color:#df2426;
+	background-color:#df2424;
 	text-align:left;
 	color:#fff;
 	font-weight: 600;
@@ -1171,6 +1171,6 @@ button.btn.btn-primary.my-header-btn2:hover {
 	font-size: 10px;
 }
 .footer-text p span {
-	color: #df2426;
+	color: #df2424;
 }
 /* FOOTER AREA END */
